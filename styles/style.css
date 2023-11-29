@@ -1,5 +1,69 @@
-/* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
-
 .page {
-  /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
+  background-color: var(--bg-color);
+  font-size: 18px;
+  font-weight: 400;
+  font-family: var(--main-font, sans-serif);
+}
+
+.content-section {
+  padding: 0 20px;
+}
+
+.header {
+  position: relative;
+  display: grid;
+  grid-template-rows: 1fr min-content 1fr;
+  block-size: 100dvb;
+  padding-block: 20px;
+  align-items: center;
+  background-image: var(--bg-image);
+  background-size: cover;
+  background-position: top center;
+  background-attachment: fixed;
+}
+
+
+.decorated-zone__element {
+  position: absolute;
+  color: var(--accent-color);
+  inset-block-start: 20px;
+  inset-inline-end: 40px;
+  line-height: 138.889%;
+  text-transform: uppercase;
+}
+
+.decorated-zone__element::after {
+  content: '';
+  position: relative;
+  display: inline-block;
+  inset-block-start: -2px;
+  inset-inline-end: -10px;
+  inline-size: 9px;
+  block-size: 9px;
+  border-radius: 50%;
+  background-color: var(--accent-color);
+  box-shadow: 0px 0px 4px 2px var(--accent-color);
+}
+
+.header__theme-menu {
+  justify-self: center;
+  align-self: flex-start;
+}
+
+.header__theme-menu-list {
+  display: flex;
+  gap: 10px;
+}
+
+.header__theme-menu-button {
+  cursor: pointer;
+  color: var(--accent-color);
+  font-family: inherit;
+  font-size: inherit;
+  padding-inline: 13px;
+  border: 1px solid transparent;
+  background-color: transparent;
+  text-align: center;
+  text-transform: lowercase;
+  line-height: 18px;
 }
