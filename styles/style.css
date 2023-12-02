@@ -225,6 +225,7 @@
   align-items: center;
   height: 100dvb;
   position: relative;
+  min-block-size: 768px;
 }
 
 .footer__title {
@@ -233,7 +234,6 @@
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   font-weight: 700;
   line-height: 82.5%;
-  min-block-size: 768px;
 }
 
 @media (width <= 950px) {
