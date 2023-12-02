@@ -22,6 +22,7 @@
   block-size: 100dvb;
   padding-block: 20px;
   align-items: center;
+  min-block-size: 768px;
 }
 
 .decorated-zone::before {
@@ -232,11 +233,13 @@
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   font-weight: 700;
   line-height: 82.5%;
+  min-block-size: 768px;
 }
 
 @media (width <= 950px) {
   .header {
     align-items: center;
+    min-block-size: 1024px;
   }
 
   .header__theme-menu {
@@ -269,11 +272,16 @@
   .contnet-gallery {
     grid-template-columns: repeat(3, 1fr);
   }
+  
+  .footer {
+    min-block-size: 1024px;
+  }
 }
 
 @media (width <= 525px) {
   .header {
     padding-block: 10px;
+    min-block-size: 688px;
   }
 
   .content-section {
@@ -333,5 +341,6 @@
 
   .footer__title {
     font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+    min-block-size: 688px;
   }
 }
