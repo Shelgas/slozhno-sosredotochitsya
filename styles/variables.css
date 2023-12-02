@@ -1,11 +1,11 @@
 :root {
-  --main-color:  #F1B2CE;
+  --main-color: #f1b2ce;
   --main-font: IBM Plex mono;
-  --accent-color: #FF0070;
-  --secondary-accent-color:  #000028;
-  --title-color: #DB00FF;
-  --bg-color:  #000028;
-  --bg-accent-color: #FF0070;
+  --accent-color: #ff0070;
+  --secondary-accent-color: #000028;
+  --title-color: #db00ff;
+  --bg-color: #000028;
+  --bg-accent-color: #ff0070;
   --bg-image: url("../images/cover-image-dark.png");
-  --focus-color: rgba(50, 49, 45, 0.40);
+  --focus-color: rgba(50, 49, 45, 0.4);
 }

@@ -1,47 +1,47 @@
 :root.theme_light {
-  --main-color:  #353430;
+  --main-color: #353430;
   --accent-color: #353430;
-  --secondary-accent-color:  #000028;
-  --title-color: #FFC2E6;;
-  --bg-color:  #FFF1F7;
-  --bg-accent-color: #FF8DCB;;
+  --secondary-accent-color: #000028;
+  --title-color: #ffc2e6;
+  --bg-color: #fff1f7;
+  --bg-accent-color: #ff8dcb;
   --bg-image: url("../images/cover-image-light.png");
 }
 
 .page.theme_light {
-  --main-color:  #353430;
+  --main-color: #353430;
   --accent-color: #353430;
-  --secondary-accent-color:  #353430;
-  --title-color: #FFC2E6;;
-  --bg-color:  #FFF1F7;
-  --bg-accent-color: #FF8DCB;;
+  --secondary-accent-color: #353430;
+  --title-color: #ffc2e6;
+  --bg-color: #fff1f7;
+  --bg-accent-color: #ff8dcb;
   --bg-image: url("../images/cover-image-light.png");
 }
 
 .header__title {
-  text-shadow: 4px 4px 0px #FF0070;
+  text-shadow: 4px 4px 0px #ff0070;
 }
 
 .footer__title {
-  text-shadow: 2px 2px 0px  #FF0070;
+  text-shadow: 2px 2px 0px #ff0070;
 }
 
 .decorated-zone__element {
   display: none;
-} 
+}
 
 @media (prefers-color-scheme: light) {
   :root {
-    --main-color:  #353430;
+    --main-color: #353430;
     --accent-color: #353430;
-    --secondary-accent-color:  #353430;
-    --title-color: #FFC2E6;;
-    --bg-color:  #FFF1F7;
-    --bg-accent-color: #FF8DCB;;
+    --secondary-accent-color: #353430;
+    --title-color: #ffc2e6;
+    --bg-color: #fff1f7;
+    --bg-accent-color: #ff8dcb;
     --bg-image: url("../images/cover-image-light.png");
   }
 
   .decorated-zone__element {
     display: none;
-  } 
+  }
 }
