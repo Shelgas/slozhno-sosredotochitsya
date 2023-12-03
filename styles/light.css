@@ -8,6 +8,7 @@
   --bg-image: url("../images/cover-image-light.png");
   --text-shadow-header: 4px 4px 0px #ff0070;
   --text-shadow-footer: 2px 2px 0px #ff0070;
+  --btn-border-hover-color: rgba(255, 0, 112, 0.4);
 }
 
 .page.theme_light .decorated-zone__element {
@@ -32,6 +33,7 @@
     --bg-image: url("../images/cover-image-light.png");
     --text-shadow-header: 4px 4px 0px #ff0070;
     --text-shadow-footer: 2px 2px 0px #ff0070;
+    --btn-border-hover-color: rgba(255, 0, 112, 0.4);
   }
 
   .page .decorated-zone__element {

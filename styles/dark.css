@@ -8,6 +8,7 @@
   --bg-image: url("../images/cover-image-dark.png");
   --text-shadow-header: 4px 4px 0px #ff0070;
   --text-shadow-footer: 2px 2px 0px #ff0070;
+  --btn-border-hover-color: rgba(50, 49, 45, 0.4);
 }
 
 .page.theme_dark .decorated-zone__element {
