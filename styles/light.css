@@ -10,7 +10,6 @@
   --text-shadow-footer: 2px 2px 0px #ff0070;
 }
 
-
 .page.theme_light .decorated-zone__element {
   display: none;
 }
@@ -40,7 +39,7 @@
   }
 
   @media (width <= 950px) {
-    :root  {
+    :root {
       --text-shadow-header: 4px 4px 0px #ff8dcb;
       --text-shadow-footer: 2px 2px 0px #ff8dcb;
     }
