@@ -105,7 +105,7 @@
 }
 
 .header__theme-menu-button:focus-visible {
-  border-block-end: 1px solid var(--main-color);
+  border-block-end: 1px solid var(--btn-focus-color);
 }
 
 .header__title {
